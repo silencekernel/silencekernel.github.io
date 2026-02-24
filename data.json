@@ -1,34 +1,10 @@
-[
-  {
-    "name": "Introduction to SilenceKernel",
-    "text": "This is the first text entry. It can have multiple lines and detailed description.",
-    "files": [
-      {
-        "name": "example.py",
-        "description": "Python example script",
-        "path": "files/example.py"
-      },
-      {
-        "name": "notes.txt",
-        "description": "Some notes",
-        "path": "files/notes.txt"
-      }
-    ]
-  },
-  {
-    "name": "Second Entry",
-    "text": "Another text entry without attached files.",
-    "files": []
-  },
-  {
-    "name": "Third Entry",
-    "text": "Text with a single file attached.",
-    "files": [
-      {
-        "name": "config.json",
-        "description": "Configuration file",
-        "path": "files/config.json"
-      }
-    ]
-  }
-]
+{
+      "texts": [
+        { "name": "Meditation", "text": "Silence is the sleep that nourishes wisdom.", "color": "blue" },
+        { "name": "Fragments", "text": "The kernel speaks in whispers.\nEach byte a thought compressed.", "color": "purple" }
+      ],
+      "files": [
+        { "name": "readme", "path": "docs/readme.txt", "description": "getting started", "color": "green" },
+        { "name": "config", "path": "cfg/sk.json", "description": "sample config", "color": "yellow" }
+      ]
+    }
