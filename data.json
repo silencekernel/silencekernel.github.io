@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Introduction to SilenceKernel",
+    "text": "This is the first text entry. It can have multiple lines and detailed description.",
+    "files": [
+      {
+        "name": "example.py",
+        "description": "Python example script",
+        "path": "files/example.py"
+      },
+      {
+        "name": "notes.txt",
+        "description": "Some notes",
+        "path": "files/notes.txt"
+      }
+    ]
+  },
+  {
+    "name": "Second Entry",
+    "text": "Another text entry without attached files.",
+    "files": []
+  },
+  {
+    "name": "Third Entry",
+    "text": "Text with a single file attached.",
+    "files": [
+      {
+        "name": "config.json",
+        "description": "Configuration file",
+        "path": "files/config.json"
+      }
+    ]
+  }
+]
