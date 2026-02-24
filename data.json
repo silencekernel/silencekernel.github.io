@@ -4,7 +4,7 @@
         { "name": "Fragments", "text": "The kernel speaks in whispers.\nEach byte a thought compressed.", "color": "purple" }
       ],
       "files": [
-        { "name": "readme", "path": "docs/readme.txt", "description": "getting started", "color": "green" },
-        { "name": "config", "path": "cfg/sk.json", "description": "sample config", "color": "yellow" }
+        { "name": "Moneta Full code", "path": "moneta/moneta.zip", "description": "The source code of project!", "color": "red" },
+        { "name": "Moneta Python file", "path": "moneta/main.py", "description": "The python file of project!", "color": "purple" }
       ]
     }
