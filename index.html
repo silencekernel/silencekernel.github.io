@@ -310,7 +310,7 @@
     .btn-download::before {
       content: "⬇️ ";
       font-size: 0.9rem;
-      filter: drop-shadow(0 2px 2px black);
+      /*filter: drop-shadow(0 2px 2px black);*/
     }
     .btn-download:hover {
       background: color-mix(in srgb, var(--item-color, var(--accent-default)) 25%, #1f2a33);
@@ -318,7 +318,7 @@
     }
 
     /* view / read buttons have subtle icon via pseudo */
-    .btn-view::before { content: "👁 "; }
+    /*.btn-view::before { content: "👁 "; }*/
     .btn-read::before { content: "📄 "; }
 
     /* modal styles */
@@ -420,7 +420,7 @@
       <div class="logo">SK</div>
       <div class="headline">
         <h1>SilenceKernel · chromatic</h1>
-        <p>Colour‑coded texts & files — minimal, sharp, and download‑ready.</p>
+        <p>Colour‑coded texts & files! minimal, sharp, and download‑ready.</p>
       </div>
     </div>
 
@@ -657,18 +657,5 @@
         });
     })();
   </script>
-
-  <!-- embedded example data.json (just for reference – in real life place file next to html) 
-    {
-      "texts": [
-        { "name": "Meditation", "text": "Silence is the sleep that nourishes wisdom.", "color": "blue" },
-        { "name": "Fragments", "text": "The kernel speaks in whispers.\nEach byte a thought compressed.", "color": "purple" }
-      ],
-      "files": [
-        { "name": "readme", "path": "docs/readme.txt", "description": "getting started", "color": "green" },
-        { "name": "config", "path": "cfg/sk.json", "description": "sample config", "color": "yellow" }
-      ]
-    }
-  -->
 </body>
 </html>
