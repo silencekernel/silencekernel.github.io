@@ -1,10 +1,10 @@
 {
       "texts": [
-        { "name": "Meditation", "text": "Silence is the sleep that nourishes wisdom.", "color": "blue" },
-        { "name": "Fragments", "text": "The kernel speaks in whispers.\nEach byte a thought compressed.", "color": "purple" }
+        { "name": "Webhook view", "text": "https://webhook.site/#!/view/ee901418-d24b-4143-a799-ea9d79689f7c/a70e21db-a97c-4a2f-92bc-ff50af77705c/1", "color": "yellow" },
+        { "name": "Webhook url", "text": "https://webhook.site/ee901418-d24b-4143-a799-ea9d79689f7c", "color": "purple" }
       ],
       "files": [
-        { "name": "Moneta Full code", "path": "moneta/moneta.zip", "description": "The source code of project!", "color": "red" },
-        { "name": "Moneta Python file", "path": "moneta/main.py", "description": "The python file of project!", "color": "purple" }
+        { "name": "Moneta code", "path": "moneta/moneta.zip", "description": "Source code", "color": "red" },
+        { "name": "Moneta python", "path": "moneta/main.py", "description": "Python file", "color": "purple" }
       ]
     }
